@@ -27,20 +27,22 @@ See the individual tutorials for details:
 
 ## Prerequisites
 
+The samples require Java 17 or later.
+
 This tutorial requires the Solace Jakarta Messaging API library (`sol-jms-jakarta`). There are multiple options for getting it.
 ### Option 1: Download the Jakarta Messaging API library
 Download from [here](https://solace.com/downloads/?fwp_downloads=solace-apis). The Jakarta Messaging API is distributed as a zip file containing the required jars, API documentation, and examples.
 
 ### Option 2: Using it with Gradle
-`implementation("com.solacesystems:sol-jms-jakarta:10.30.1")`
-or `implementation group: 'com.solacesystems', name: 'sol-jms-jakarta', version: '10.30.1'`
+`implementation("com.solacesystems:sol-jms-jakarta:10.31.0")`
+or `implementation group: 'com.solacesystems', name: 'sol-jms-jakarta', version: '10.31.0'`
 
 ### Option 3: Using it with Maven
 ```
 <dependency>
    <groupId>com.solacesystems</groupId>
    <artifactId>sol-jms-jakarta</artifactId>
-   <version>10.30.1</version>
+   <version>10.31.0</version>
 </dependency>
 ```
 
